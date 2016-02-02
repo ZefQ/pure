@@ -117,7 +117,7 @@ prompt_pure_preprompt_render() {
 
 	# construct preprompt, beginning with path
 	local preprompt=$prompt_pure_username
-	preprompt+="%F{blue}%~%f"
+	preprompt+="%F{magenta}%~%f"
         
 	# git info
         if [[ -n ${vcs_info_msg_0_} ]]; then
